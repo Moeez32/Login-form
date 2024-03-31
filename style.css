@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+body{
+background: url('cl.jpg') no-repeat;
+background-size: cover;
+background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+ 
+ 
+}
+
+.body{
+    position: relative;
+    width: 420px;
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    background: transparent;
+    padding: 20px 40px;
+    height: 60%;
+    border-radius: 20px;
+    outline: none;
+
+}
+.form-body{
+    position: relative;
+}
+.body p{
+    font-family: "Oswald", sans-serif;
+    color: black    ;
+    text-align: center;
+    font-size: 36px;
+}
+.body .input-class input{
+ 
+    width: 100%;
+    /* background-color: black; */
+    /* background-color: transparent; */
+    height: 40px;
+    margin: 10px 0px;
+    background-color: ;
+    outline: none;
+    border-radius: 40px;
+    border: none;
+    color: black;
+    padding: 20px 45px 20px 20px;
+}
+.input-class input::placeholder{
+
+    color: black;
+}
+.input-class i {
+    position: absolute;
+    left: 90%;
+   margin-top: 20px;
+
+}
+.remember{
+
+    display: flex;
+    justify-content: space-between;
+}
+.btn button{
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+.remember label input{
+    accent-color: white;
+    margin-right: 3px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
